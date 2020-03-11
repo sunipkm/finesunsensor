@@ -20,9 +20,10 @@
 
 /*** LIBRARIES *************/
 
-#include "tablesA60.h"
-
-
+#include "tablesa60.h"
+#ifndef ARDUINO
+#include <math.h>
+#endif
 
 /*** DEFINES *************/
 
